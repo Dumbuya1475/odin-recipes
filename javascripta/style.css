@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#title {
+    text-align: center;
+    /* margin-bottom: 30px; */
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+p {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#surveyy-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-body {
+    padding: 20px 50px;
+    margin: 0 300px;
+    border-radius: 5px;
+    background-color: #173459;
+    /* background-color: #333333; */
+    /* background-color: #903C56; */
+    /* background-color: #76969D; */
+    /* background-color: #f8f9f9; */
+    /* background-color: #6076ff; */
+
+    max-width: 100%;
+}
+#input_section, #dropdown-role {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#input_section label,
+#dropdown-role label,
+#recomend > label {
+    font-size: larger;
+    color: #f8f9f9;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#input_section input {
+    padding: 10px;
+    min-width: 500px;
+    font-size: large;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    outline-color: darkorange;
+    background-color: #fff;
+}
+
+#dropdown-role #role {
+    font-size: large;
+    padding: 10px;
+    min-width: 520px;
+    border-radius: 5px;
+    /* border: 2px solid darkorange; */
+    outline-color: darkorange;
+    background-color: #fff;
+}
+
+#recomend {
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    align-items: first baseline;
+}
+
+.radio-bax {
+    gap: 20px;
+    margin: 5px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.radio-bax label {
+    font-size: large;
+    font-weight: 500;
+    color: #f8f9f9;
+}
+
+input[type = "radio"] {
+    width: 25px;
+    height: 25px;
+}

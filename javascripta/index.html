@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p><i>Thank you for helping me out for making this sucessful</i></p>
+    <form action="" id="surveyy-form">
+        <div class="form-body">
+            <section id="input_section">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <label for="age">Age(optional)</label>
+                <input type="number" placeholder="Age">
+            </section>
+
+            <section id="dropdown-role">
+                <label for="role">Which best describe you</label>
+                <select name="" id="role">
+                    <option value="student">Student</option>
+                    <option value="full-time-job">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Learner</option>
+                    <option value="not-to-say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+
+            <section id="recomend">
+                <label for="">What would you recomend for me as a friend</label>
+                <div class="radio-bax">
+                    <input type="radio" id="definately" name="on-off" checked><label for="definately">Definately</label>
+                </div>
+                <div class="radio-bax">
+                    <input type="radio" id="maybe" name="on-off"><label for="maybe">Maybe</label>
+                </div>
+                <div class="radio-bax">
+                    <input type="radio" id="none" name="on-off"><label for="none">Not sure</label>
+                </div>
+            </section>
+        </div>
+    </form>
+</body>
+</html>
